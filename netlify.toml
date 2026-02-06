@@ -1,0 +1,8 @@
+[build]
+  base = "openoa-explorer"
+  command = "npm install && npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+
