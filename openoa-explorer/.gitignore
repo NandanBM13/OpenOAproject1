@@ -1,4 +1,11 @@
-# Logs
+openoa-env/
+frontend/
+node_modules/
+dist/
+.env
+*.swp
+.DS_Store
+yxxx6xx# Logs
 logs
 *.log
 npm-debug.log*
