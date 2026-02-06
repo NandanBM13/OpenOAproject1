@@ -1,0 +1,50 @@
+/* FULL PAGE like follow.art */
+.home-wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: #0a0a0a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* Centered block */
+.home-content {
+  text-align: center;
+  max-width: 720px;
+}
+
+/* Big clean headline */
+.home-title {
+  font-size: 64px;
+  font-weight: 600;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+
+/* Sub text */
+.home-subtitle {
+  font-size: 20px;
+  color: #b5b5b5;
+  margin-bottom: 48px;
+}
+
+/* Follow.art-like button */
+.home-button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 16px 36px;
+  font-size: 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+.home-button:hover {
+  transform: translateY(-2px);
+  background: #f0f0f0;
+}
